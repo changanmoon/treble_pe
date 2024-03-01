@@ -16,7 +16,7 @@ BD=$HOME/builds
 initRepos() {
     if [ ! -d .repo ]; then
         echo "--> Initializing workspace"
-        repo init -u https://github.com/PixelExperience/manifest -b fourteen --git-lfs
+        repo init -u https://github.com/PixelExperience/manifest -b fourteen
         echo
 
         echo "--> Preparing local manifest"
